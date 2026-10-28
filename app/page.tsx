@@ -289,7 +289,7 @@ export default function Home() {
             {imageSrc && (
               <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 z-20 pointer-events-none bg-black/75 backdrop-blur-md text-zinc-300 text-[10px] px-2.5 py-1 rounded-full border border-zinc-700/60 shadow flex items-center gap-1.5 opacity-80 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                 <Drag01Icon className="w-3 h-3 text-red-400" />
-                <span>Drag to reposition • Scroll to zoom</span>
+                <span>Drag to reposition</span>
               </div>
             )}
           </div>
